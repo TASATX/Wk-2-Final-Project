@@ -17,19 +17,51 @@
               <img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" class="logo__img" alt=/>
               <h3 class="logo__title">&nbsp;Treact</h3>
             </div>
-              <ul class="nav__list">
-                <li> <a href="#landing"class="nav__link nav__link--secondary">About</a></li>
-                <li> <a href="#blog"class="nav__link nav__link--secondary">Blog</a></li>
-                <li> <a href="#pricing"class="nav__link nav__link--secondary">Pricing</a></li>
-                <li> <a href="#contact"class="nav__link nav__link--secondary">Contact Us</a></li>
-                <li> <a href="#login"class="nav__link nav__link--secondary">Login</a></li>
-                <li> <a href="#landing"class="nav__link nav__link--primary">Sign Up</a></li>  
+              <ul class="menu__links">
+                <li> <a href="#landing"class="menu__link nav__link--secondary">About</a></li>
+                <li> <a href="#blog"class="menu__link nav__link--secondary">Blog</a></li>
+                <li> <a href="#pricing"class="menu__link nav__link--secondary">Pricing</a></li>
+                <li> <a href="#contact"class="menu__link nav__link--secondary">Contact Us</a></li>
+                <li> <a href="#login"class="menu__link nav__link--secondary">Login</a></li>
+                <li> <a href="#landing"class="menu__link nav__link--primary">Sign Up</a></li>  
+              </ul>
+
+              <!--
+              <div>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></fa-bars></i>
+                </button>
+              </div>
+              <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+              <ul class="menu__links">
+                <li class="menu__list">
+                    <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
+                </li><li class="menu__list">
+                    <a class="menu__link no-cursor" class="menu__link"onclick="closeMenu()" >Blog</a>
+                </li><li class="menu__list">
+                    <a href="#pricing"class="menu__link" onclick="closeMenu()">Pricing</a>
+                </li>
+              </li><li class="menu__list">
+                <a class="menu__link no-cursor" onclick="closeMenu()">Contact Us</a>
+            </li>
+          </li><li class="menu__list">
+            <a class="menu__link no-cursor" onclick="closeMenu()">Login</a>
+        </li>
+      </li><li class="menu__list">
+        <a class="menu__link no-cursor" onclick="closeMenu()">Sign Up</a>
+    </li>
+              </ul>
+    -->
               </div>
             </div>
       </nav>    
     
       <div class="landing__container">
         <div class="column__wrapper-1">
+          <div class="level__2">
         <div class="row__landing">
           <div>            
             <h1 class="">Beautiful React Templetes <Span class="purple">&nbsp;for you</Span></h1>
@@ -45,7 +77,11 @@
           </div>
             <figure class="cust__logo--wrapper">
               <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" class="cust__log-strip" alt="">
-            </figure>          
+            </figure>
+          </div>
+            <figure class="landing__blob">
+              <img src="./assets/left purple blob.jpg" class="landing__blob--img" alt="">
+            </figure>
         </div>
         <div class="column__wrapper-2">
               <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" class="landing__img">
@@ -151,15 +187,12 @@
           </span>
         </div>
       </div>
+      <figure class="figure__blob">
+        <img src="./assets/bottom left blob.jpg" class="figure__blob--img" alt="decorative blob">
+      </figure>
     </div>
+  </section> 
 
-  <div class="blob">
-    <svg class="blob__img" width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" class="ThreeColWithSideImage__DecoratorBlob-sc-i1jy54-8 dCNgUA"><g transform="translate(300,300)"><path d="M125,-160.4C159.9,-146.7,184.6,-107.3,178.8,-70.9C173.1,-34.4,137,-0.8,128.8,47.3C120.7,95.5,140.6,158.2,123.8,198.4C107,238.6,53.5,256.3,5.4,248.9C-42.7,241.5,-85.4,208.9,-112.7,172.1C-140,135.3,-151.8,94.2,-146.3,59.7C-140.8,25.1,-117.9,-2.9,-104,-30.1C-90.1,-57.3,-85,-83.7,-69.1,-103.5C-53.3,-123.4,-26.6,-136.7,9.2,-149.4C45.1,-162,90.1,-174,125,-160.4Z" fill="#FFB4BC"></path></g></svg>
-    <g transform="translate(300,300)"><path d="M125,-160.4C159.9,-146.7,184.6,-107.3,178.8,-70.9C173.1,-34.4,137,-0.8,128.8,47.3C120.7,95.5,140.6,158.2,123.8,198.4C107,238.6,53.5,256.3,5.4,248.9C-42.7,241.5,-85.4,208.9,-112.7,172.1C-140,135.3,-151.8,94.2,-146.3,59.7C-140.8,25.1,-117.9,-2.9,-104,-30.1C-90.1,-57.3,-85,-83.7,-69.1,-103.5C-53.3,-123.4,-26.6,-136.7,9.2,-149.4C45.1,-162,90.1,-174,125,-160.4Z" fill="#FFB4BC"></path></g>
-    <path d="M125,-160.4C159.9,-146.7,184.6,-107.3,178.8,-70.9C173.1,-34.4,137,-0.8,128.8,47.3C120.7,95.5,140.6,158.2,123.8,198.4C107,238.6,53.5,256.3,5.4,248.9C-42.7,241.5,-85.4,208.9,-112.7,172.1C-140,135.3,-151.8,94.2,-146.3,59.7C-140.8,25.1,-117.9,-2.9,-104,-30.1C-90.1,-57.3,-85,-83.7,-69.1,-103.5C-53.3,-123.4,-26.6,-136.7,9.2,-149.4C45.1,-162,90.1,-174,125,-160.4Z" fill="#FFB4BC"></path>
-  </div>
-  </section>
-  
   <section id="quality">
     <div class="quality__container">
     <div class="column__wrapper-3">
@@ -176,9 +209,13 @@
     </div>  
     </div>
     <div class="column__wrapper-4">
+      <figure class="img-1__container">
       <img src="./assets/Landing Page.png" class="quality__img-1" alt="Image of the Landing Page">  
+    </figure>
     </div>
-    <!-- <img src="./assets/image dots.jpg" class="quality__img-2" alt=""> -->
+    <figure class="dots-img">
+      <img src="./assets/image dots.jpg" class="quality__img-2" alt="">
+    </figure>  
     </div>
   </section>
 
@@ -197,7 +234,6 @@
         <div class="steps__para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cupiditate pariatur. Sunt vel hic fugit amet officiis repellat dolorum provident!
         </div>
-      <!--<button>Learn More</button>-->
     </div>
 </section>
 
@@ -235,7 +271,13 @@
     </span>   
   </div>
 </div>
+
+<figure class="price__blob-container">
+  <img src="./assets/price__blob.jpg" class="price__blob--img" alt="">
+</figure>
+
 </div>
+</section>
 
 <section id="values">
   <div class="values__container">
@@ -249,7 +291,6 @@
       <div class="values__para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cupiditate pariatur. Sunt vel hic fugit amet officiis repellat dolorum provident!
       </div>
-    <!--<button>Learn More</button>-->
   </div>  
   </div>
   <div class="column__wrapper-8">
@@ -270,7 +311,6 @@
       <div class="testimonial__para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cupiditate pariatur. Sunt vel hic fugit amet officiis repellat dolorum provident!
       </div>
-    <!--<button>Learn More</button>-->
   </div>   
 </section>
 
@@ -287,78 +327,93 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta ad saepe dignissimos minima quas ducimus voluptatibus fuga perspiciatis sed natus fugit, iusto maxime quidem, dolorem accusantium, deserunt placeat? Illum?</p>
       </div>
     </div>
-  
-  <div class="faqs__cards">
+
+    <div class="faqs__cards">
     <div class="faqs__card">
       <label for="faqs__menu">
-        <h4 class="faqs__card-title"> Are all templates customizable?</h4>
-            <select name="" id="Faqs1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis maiores laudantium, delectus architecto blanditiis maxime aliquam et vel voluptates, illum, dolorum vero facilis modi consequatur facere culpa labore dolore?20</p>
-            </select>
+        <p style="display:inline;">
+        <h4 class="faqs__card-title">Are all templates customizable?&emsp13;&emsp13;
+          <i class="chevron"></i>
+        </h4>
+      </p>        
       </label>
-      </div>
-  
+    </div>
+      
       <div class="faqs__card">
         <label for="faqs__menu">
-          <h4 class="faqs__card-title">How long do you usually support a template?</h4>
-            <select name="" id="Faqs1">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis maiores laudantium, delectus architecto blanditiis maxime aliquam et vel voluptates, illum, dolorum vero facilis modi consequatur facere culpa labore dolore?20</p>
-            </select>
+          <p style="display:inline-block;">
+          <h4 class="faqs__card-title">How long do you usually support a template?&emsp13;&emsp13;
+            <i class="chevron"></i>
+          </h4>
+        </p>        
         </label>
-    </div>
-  
+      </div>
+    
     <div class="faqs__card">
       <label for="faqs__menu">
-        <h4 class="faqs__card-title">What kind of payment methods do you accept?</h4>
-          <select name="" id="Faqs1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis maiores laudantium, delectus architecto blanditiis maxime aliquam et vel voluptates, illum, dolorum vero facilis modi consequatur facere culpa labore dolore?20</p>
-          </select>
+        <p style="display:inline-block;">
+        <h4 class="faqs__card-title">What kind of payment methods do you accept? &emsp13;&emsp13;
+          <i class="chevron"></i>
+        </h4>
+      </p>        
+      </label>
+    </div>
+    
+    <div class="faqs__card">
+      <label for="faqs__menu">
+        <p style="display:inline-block;">
+        <h4 class="faqs__card-title">Is there a subscription service to get the latest templates? &emsp13;&emsp13;
+          <i class="chevron"></i>
+        </h4>
+      </p>        
       </label>
     </div>
 
-    <div class="faqs__card">
-      <label for="faqs__menu">
-        <h4 class="faqs__card-title">Is there a subscription service to get the latest templates?</h4>
-          <select name="" id="Faqs1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis maiores laudantium, delectus architecto blanditiis maxime aliquam et vel voluptates, illum, dolorum vero facilis modi consequatur facere culpa labore dolore?20</p>
-          </select>
-      </label> 
-  </div>
-
   <div class="faqs__card">
     <label for="faqs__menu">
-      <h4 class="faqs__card-title">Are the templates compatible with React? </h4>
-        <select name="" id="Faqs">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis maiores laudantium, delectus architecto blanditiis maxime aliquam et vel voluptates, illum, dolorum vero facilis modi consequatur facere culpa labore dolore?20</p>
-        </select>
-    </label>  
-  </div>
-
-  <div class="faqs__card">
-    <label for="faqs__menu">
-      <h4 class="faqs__card-title">Do you really support Internet Explorer 11?</h4>
-        <select name="" id="Faqs1">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nobis maiores laudantium, delectus architecto blanditiis maxime aliquam et vel voluptates, illum, dolorum vero facilis modi consequatur facere culpa labore dolore?20</p>
-        </select>
+      <p style="display:inline-block;">
+      <h4 class="faqs__card-title">Are the templates compatable with React? &emsp13;&emsp13;</h4>
+        <i class="chevron"></i>
+      
+    </p>        
     </label>
   </div>
 
-  <input type="checkbox" class="read-more-state" id="post-2" />
+  <div class="faqs__card">
+    <label for="faqs__menu">
+      <p style="display:inline-block;">
+      <h4 class="faqs__card-title">Do you really support Internet Explorer 11? &emsp13;&emsp13;
+        <i class="chevron"></i>
+      </h4>
+    </p>        
+    </label>
+  </div>
+</div>
 
-<!-- 
-  <ul class="read-more-wrap">
-    <li>Do you really support IE 11?</li>
-    <li class="read-more-target">
-      <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m6 9l6 6l6-6"/></svg>
-    </li>
-  </ul>
-  
-  <label for="post-2" class="read-more-trigger"></label>
--->
-</div>
-</div>
+    <figure class="faqs__blob">
+      <img src="./assets/left purple blob.jpg" class="faqs__blob--img" alt="">
+    </figure>
+
 </div>
 </section>
+
+<section id="developers">
+  <div class="developers__container">
+    <div class="developers__row">
+      <div class="text__col">
+      <p>Developers all over the world happily using Treact</p>
+      </div>
+    </div>
+
+  <div class="button__box">
+    <div class="developers__btn-1">Get Started</div>
+    <div class="developers__btn-2">Contact Us</div>
+  </div>
+  </div>
+  
+</section>
+</div>
+</div>
 
 </body>
 </html>
