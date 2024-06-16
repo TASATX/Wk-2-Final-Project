@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact Project</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+      <script src="index.js"></script>
   </head>
 
   <body>
@@ -12,21 +14,20 @@
     <section id="landing">
       <nav>
         <div class="nav__container">
-          <div class="row row__nav">
+          <div class="row">
             <div class="logo">
               <img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" class="logo__img" alt=/>
               <h3 class="logo__title">&nbsp;Treact</h3>
             </div>
               <ul class="menu__links">
-                <li> <a href="#landing"class="menu__link nav__link--secondary">About</a></li>
-                <li> <a href="#blog"class="menu__link nav__link--secondary">Blog</a></li>
-                <li> <a href="#pricing"class="menu__link nav__link--secondary">Pricing</a></li>
-                <li> <a href="#contact"class="menu__link nav__link--secondary">Contact Us</a></li>
-                <li> <a href="#login"class="menu__link nav__link--secondary">Login</a></li>
-                <li> <a href="#landing"class="menu__link nav__link--primary">Sign Up</a></li>  
+                <li> <a href="#landing"class="menu__link">About</a></li>
+                <li> <a href="#blog"class="menu__link">Blog</a></li>
+                <li> <a href="#pricing"class="menu__link">Pricing</a></li>
+                <li> <a href="#contact"class="menu__link">Contact Us</a></li>
+                <li> <a href="#login"class="menu__link">Login</a></li>
+                <li> <a href="#landing"class="menu__link menu__link--primary">Sign Up</a></li>  
               </ul>
-
-              <!--
+             
               <div>
                 <button class="btn__menu" onclick="openMenu()">
                     <i class="fas fa-bars"></fa-bars></i>
@@ -54,7 +55,7 @@
         <a class="menu__link no-cursor" onclick="closeMenu()">Sign Up</a>
     </li>
               </ul>
-    -->
+
               </div>
             </div>
       </nav>    
@@ -73,7 +74,7 @@
           <div class="email__wrapper">
             <label for="email">Email:</label>
             <input type="email" placeholder="Email@email.com" id="email"/>
-            <button> Get Started</button>
+            <button class="landing__btn"> Get Started</button>
           </div>
             <figure class="cust__logo--wrapper">
               <img src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" class="cust__log-strip" alt="">
@@ -195,19 +196,22 @@
 
   <section id="quality">
     <div class="quality__container">
+
     <div class="column__wrapper-3">
-      <div class="row__quality">
-        <h3 class="quality__sub-header">Quality Work
-        </h3>
+      <div class="quality__row">
+        <h3>Quality Work</h3>
          <h2> Designed and Developed by 
           <span class="purple">&nbsp;Professionals</span> 
         </h2>
         <div class="quality__para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cupiditate pariatur. Sunt vel hic fugit amet officiis repellat dolorum provident!
         </div>
-      <!--<button>Learn More</button>-->
-    </div>  
+      </div>   
+
+      <button type="button">Learn More</button>
+
     </div>
+
     <div class="column__wrapper-4">
       <figure class="img-1__container">
       <img src="./assets/Landing Page.png" class="quality__img-1" alt="Image of the Landing Page">  
@@ -225,9 +229,8 @@
       <img src="./assets/hero-screenshot-2.241aac1fbc66db29d873.png" class="steps__img-1" alt="Hero Image">  
     </div>    <div class="column__wrapper-3">
       <div class="column__wrapper-6">
-      <div class="row__steps">
-        <h3 class="steps__sub-header">Steps
-        </h3>
+      <div class="steps__row">
+        <h3>Steps</h3>
          <h2> Easy to Get  
           <span class="purple">&nbsp;Started.</span> 
         </h2>
@@ -244,8 +247,8 @@
     <h3>
       Pricing
     </h3>
-    <h2>
-      Reasonable & Flexible <span class="purple">&nbsp;Plans.</span>
+    <h2>Reasonable & Flexible 
+      <span class="purple">&nbsp;Plans.</span>
     </h2>
     <div class="pricing__para">
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta ad saepe dignissimos minima quas ducimus voluptatibus fuga perspiciatis sed natus fugit, iusto maxime quidem, dolorem accusantium, deserunt placeat? Illum?</p>
@@ -283,15 +286,17 @@
   <div class="values__container">
   <div class="column__wrapper-7">
     <div class="row__values">     
-      <h3 class="values__sub-header">Values
-      </h3>
+      <h3>Values</h3>
        <h2> We Always Abide by Our  
         <span class="purple">&nbsp;Principles.</span> 
       </h2>
       <div class="values__para">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, cupiditate pariatur. Sunt vel hic fugit amet officiis repellat dolorum provident!
       </div>
-  </div>  
+    </div> 
+
+    <button type="button">Learn More</button>
+
   </div>
   <div class="column__wrapper-8">
     <img src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" class="values__img-1" alt="Image of the Landing Page"> 
@@ -303,8 +308,7 @@
     <img src="./assets/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg" class="testimonial__img-1" alt="Image of the Landing Page">  
   </div>    <div class="column__wrapper-10">
     <div class="row__testimonial">
-      <h3 class="testimonial__sub-header">Tesimonials
-      </h3>
+      <h3>Tesimonials</h3>
        <h2> Our Clients 
         <span class="purple">&nbsp;Love Us.</span> 
       </h2>
@@ -320,8 +324,8 @@
       <h3>
         Faqs
       </h3>
-      <h2>
-        You have <span class="purple">&nbsp;Questions ?</span>
+      <h2>You have 
+        <span class="purple">&nbsp;Questions ?</span>
       </h2>
       <div class="faqs__para">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dicta ad saepe dignissimos minima quas ducimus voluptatibus fuga perspiciatis sed natus fugit, iusto maxime quidem, dolorem accusantium, deserunt placeat? Illum?</p>
@@ -330,63 +334,87 @@
 
     <div class="faqs__cards">
     <div class="faqs__card">
-      <label for="faqs__menu">
+
+      <div class="para__box">
         <p style="display:inline;">
-        <h4 class="faqs__card-title">Are all templates customizable?&emsp13;&emsp13;
+        <h4 class="faqs__card-title">Are all templates customizable?&ensp;&ensp;</h4>
+      </p>
+      </div>
+
+      <div class="chevron__box">
           <i class="chevron"></i>
-        </h4>
-      </p>        
-      </label>
+      </div>
+
     </div>
       
       <div class="faqs__card">
-        <label for="faqs__menu">
-          <p style="display:inline-block;">
-          <h4 class="faqs__card-title">How long do you usually support a template?&emsp13;&emsp13;
+
+        <div class="para__box">
+          <p style="display:inline;">
+          <h4 class="faqs__card-title">How long do you usually support a stand alone template for?&ensp;&ensp;</h4>
+        </p>
+        </div>
+  
+        <div class="chevron__box">
             <i class="chevron"></i>
-          </h4>
-        </p>        
-        </label>
+        </div>
+
       </div>
-    
+
     <div class="faqs__card">
-      <label for="faqs__menu">
-        <p style="display:inline-block;">
-        <h4 class="faqs__card-title">What kind of payment methods do you accept? &emsp13;&emsp13;
+
+      <div class="para__box">
+        <p style="display:inline;">
+        <h4 class="faqs__card-title">What kind of payment methods do you accept?&ensp;&ensp;</h4>
+      </p>
+      </div>
+
+      <div class="chevron__box">
           <i class="chevron"></i>
-        </h4>
-      </p>        
-      </label>
+      </div>  
+
     </div>
     
     <div class="faqs__card">
-      <label for="faqs__menu">
-        <p style="display:inline-block;">
-        <h4 class="faqs__card-title">Is there a subscription service to get the latest templates? &emsp13;&emsp13;
+
+      <div class="para__box">
+        <p style="display:inline;">
+        <h4 class="faqs__card-title">Is there a subscription service to get the latest templates?&ensp;&ensp;</h4>
+      </p>
+      </div>
+
+      <div class="chevron__box">
           <i class="chevron"></i>
-        </h4>
-      </p>        
-      </label>
+      </div> 
+
+    </div>
+    
+  <div class="faqs__card">
+
+    <div class="para__box">
+      <p style="display:inline;">
+      <h4 class="faqs__card-title">Are the templates compatable with React?&ensp;&ensp;</h4>
+    </p>
     </div>
 
-  <div class="faqs__card">
-    <label for="faqs__menu">
-      <p style="display:inline-block;">
-      <h4 class="faqs__card-title">Are the templates compatable with React? &emsp13;&emsp13;</h4>
+    <div class="chevron__box">
         <i class="chevron"></i>
-      
-    </p>        
-    </label>
+    </div> 
+
   </div>
 
   <div class="faqs__card">
-    <label for="faqs__menu">
-      <p style="display:inline-block;">
-      <h4 class="faqs__card-title">Do you really support Internet Explorer 11? &emsp13;&emsp13;
+
+    <div class="para__box">
+      <p style="display:inline;">
+      <h4 class="faqs__card-title">Do you really support Internet Explorer 11?&ensp;&ensp;</h4>
+    </p>
+    </div>
+
+    <div class="chevron__box">
         <i class="chevron"></i>
-      </h4>
-    </p>        
-    </label>
+    </div>   
+
   </div>
 </div>
 
@@ -403,17 +431,90 @@
       <div class="text__col">
       <p>Developers all over the world happily using Treact</p>
       </div>
-    </div>
 
   <div class="button__box">
     <div class="developers__btn-1">Get Started</div>
     <div class="developers__btn-2">Contact Us</div>
-  </div>
+  </div>  
+</div>
   </div>
   
 </section>
+
+<Footer id="footer">
+  <div class="footer__container-1">
+    
+    <div class="ft__row">
+      <h5 class="ft__header">Main</h5>
+      <ul>
+        <li><a href="#" class="no-cursor ft__row"></a>Blog</li>
+        <li><a href="#Faqs" class="no-cursor ft__row"></a>Faqs</li>
+        <li><a href="#" class="no-cursor ft__row"></a>Support</li>
+        <li><a href="#" class="no-cursor ft__row"></a>About Us</li>
+      </ul>
+    </div>
+
+    <div class="ft__row">
+      <h5 class="ft__header">Product</h5>
+      <ul>
+        <li><a href="#" class="no-cursor ft__row"></a>Log In</li>
+        <li><a href="#" class="no-cursor ft__row"></a>Personal</li>
+        <li><a href="#" class="no-cursor ft__row"></a>Business</li>
+        <li><a href="#" class="no-cursor ft__row"></a>Team</li>
+      </ul>
+    </div>
+
+    <div class="ft__row">
+      <h5 class="ft__header">Press</h5>
+      <ul>
+        <li><a href="#" class="no-cursor ft__row">Logos</a></li>
+        <li><a href="#" class="no-cursor ft__row">Events</a></li>
+        <li><a href="#" class="no-cursor ft__row">Stories</a></li>
+        <li><a href="#" class="no-cursor ft__row">Office</a></li>
+      </ul>
+    </div>
+
+    <div class="ft__row">
+      <h5 class="ft__header">Team</h5>
+      <ul>
+        <li><a href="#" class="no-cursor ft__row">Career</a></li>
+        <li><a href="#" class="no-cursor ft__row">Founders</a></li>
+        <li><a href="#" class="no-cursor ft__row">Culture</a></li>
+        <li><a href="#" class="no-cursor ft__row">Onboarding</a></li>
+      </ul>
+    </div>
+
+    <div class="ft__row">
+      <h5 class="ft__header">Legal</h5>
+      <ul>
+        <li><a href="#" class="no-cursor ft__row">GDPR</a></li>
+        <li><a href="#" class="no-cursor ft__row">Privacy Policy</a></li>
+        <li><a href="#" class="no-cursor ft__row">Terms of Service</a></li>
+        <li><a href="#" class="no-cursor ft__row">Disclaimer</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <hr class="line__seperator">
+
+  <div class="ft__container-2">
+    <div class="ft__logo">
+      <img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" class="ft__logo--img" alt="">
+      <p class="footer__title-2">&emsp;Treat Inc.</p>
+    </div>
+
+    <p class="ft__copy">&copy;&nbsp;Treat Inc. All Rights Reserved.</p>
+  <div class="ft__link">
+    <ul>
+      <li class="ft__links"><a href="https://facebook.com/"></a> </a> <img src="./assets/FB icon.jpg" alt=""></li>
+      <li class="ft__links"><a href="https://twitter.com/"></a> </a> <img src="./assets/X_twitter.png" alt=""></li>
+      <li class="ft__links"><a href="https://youtube.com/"></a> </a> <img src="./assets/Youtube icon.png" alt=""></li>
+    </ul>
+  </div>  
 </div>
-</div>
+</Footer>
 
 </body>
 </html>
+
