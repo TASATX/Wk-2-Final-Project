@@ -59,6 +59,7 @@ h2 {
   font-weight: 900;
   margin: 16px 24px;
   letter-spacing: 0.4px;
+  text-align: center;
 }
 
 h3 {
@@ -270,6 +271,7 @@ LANDING
 
 .landing__para {
   width: 80%;
+  text-align: center;
 }
 
 .email__wrapper {
@@ -477,6 +479,7 @@ QUALITY
 
 .quality__para {
   width: 80%;
+  text-align: center;
 }
 
 .img-1__container {
@@ -552,7 +555,7 @@ STEPS
 
 .steps__para {
   width: 80%;
-  padding-left: 28px;
+ text-align: center;
 }
 
 .steps__img-1 {
@@ -586,6 +589,7 @@ PRICING
   opacity: 60%;
   line-height: 1.5;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .pricing__container {
@@ -676,6 +680,7 @@ VALUES
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .row__values {
@@ -691,6 +696,7 @@ VALUES
 
 .values__para {
   width: 80%;
+  text-align: center;
 }
 
 .values__img-1 {
@@ -742,7 +748,7 @@ TESTIMONIAL
 
 .testimonial__para {
   width: 80%;
-  padding-left: 28px;
+ text-align: center;
 }
 
 .testimonial__img-1 {
@@ -787,6 +793,7 @@ FAQS
   opacity: 60%;
   line-height: 1.5;
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .faqs__cards {
